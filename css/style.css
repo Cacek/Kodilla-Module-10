@@ -3,7 +3,7 @@
     margin: 40px auto 20px auto;
     height: 300px;
     border: 1px solid black;
-    width: 89.66%;
+    width: 800px;
     -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 7px 1px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 7px 1px;
     overflow: hidden;
@@ -24,12 +24,12 @@
 
 #slider .nav.previous {
     left: 0;
-    background-image: url(/img/bck.png);
+    background-image: url(../img/bck.png);
 }
 
 #slider .nav.next {
     right: 0;
-    background-image: url(/img/fwd.png);
+    background-image: url(../img/fwd.png);
 }
 
 #dots ul {
@@ -41,18 +41,18 @@
     margin: 0 5px;
     width: 20px;
     height: 20px;
-    background-color: #e8ebd6;
-    border: 1px solid #adb870;
+    background-color: #2667cb;
+    border: 1px solid #b4c3da;
     border-radius: 50%;
     cursor: pointer;
 }
 
 #dots ul li:hover {
-    background-color: #d4dab4;
+    background-color: #b4c3da;
 }
 
 #dots ul li.active {
-    background-color: #c1c992;
+    background-color: #b4c3da;
 }
 
 .preview {
